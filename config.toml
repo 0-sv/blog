@@ -1,7 +1,7 @@
 baseURL = "https://example.com"
 languageCode = "en-us"
 defaultContentLanguage = "en"
-title = "Hugo Hermit"
+title = "sv@work"
 theme = "hermit"
 # enableGitInfo = true
 pygmentsCodefences  = true
@@ -56,16 +56,20 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   # Social Icons
   # Check https://github.com/Track3/hermit#social-icons for more info.
   [[params.social]]
-    name = "twitter"
-    url = "https://twitter.com/"
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/sebastiaan-verbeek-13792a182/"
 
   [[params.social]]
-    name = "instagram"
-    url = "https://instagram.com/"
+    name = "stackoverflow"
+    url = "https://stackoverflow.com/users/8357826/sebastiaan-verbeek"
 
   [[params.social]]
     name = "github"
-    url = "https://github.com/"
+    url = "https://github.com/svatwork"
+  
+  [[params.social]]
+    name = "facebook"
+    url = "https://www.facebook.com/sebastiaan.verbeek.37"
 
 [menu]
 
@@ -76,5 +80,5 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 
   [[menu.main]]
     name = "About"
-    url = "about-hugo/"
+    url = "about/"
     weight = 20
