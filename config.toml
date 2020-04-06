@@ -36,7 +36,7 @@ googleAnalytics = "UA-162849553-1"
   # images = [""]
   themeColor = "#494f5c"
 
-  homeSubtitle = "Kubernetes in AWS engineering blog."
+  homeSubtitle = "Freelance cloud engineer"
   footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
   # bgImg = ""  # Homepage background-image URL
 
@@ -65,15 +65,15 @@ googleAnalytics = "UA-162849553-1"
 
   [[params.social]]
     name = "stackoverflow"
-    url = "https://stackoverflow.com/users/8357826/sebastiaan-verbeek"
+    url = "https://stackoverflow.com/story/sva"
 
   [[params.social]]
     name = "github"
     url = "https://github.com/svatwork"
   
   [[params.social]]
-    name = "facebook"
-    url = "https://www.facebook.com/sebastiaan.verbeek.37"
+    name = "twitter"
+    url = "https://twitter.com/svatwork"
 
 [menu]
 
