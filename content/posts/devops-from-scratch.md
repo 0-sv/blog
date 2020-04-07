@@ -13,21 +13,21 @@ What I want to do in this article series is reason about the theory and principl
 
 I think one good way to do that would be to use general-purpose tools so we can think about the design instead of pulling solutions off-the-shelve. Then we can discover on our own what the best implementation would be for an organization.
 
-Furthermore, it's implementing Flow is supposed to be the stepping stone to the principle of Feedback, after which we can make the step to Continual Learning and Experimentation, coming full circle with the Three Ways of Flow, Feedback, and Continual Learning and Experimentation.
+Furthermore, implementing Flow is supposed to be the stepping stone to the principle of Feedback, after which we can make the step to Continual Learning and Experimentation, coming full circle with the Three Ways of Flow, Feedback, and Continual Learning and Experimentation.
 
-We're going to limit the scope to Kubernetes and AWS. So why would we use Kubernetes and AWS, specifically in that combination? First of all, they are the de facto industry standard platforms. Kubernetes is like an operating system on steroids. As a standard, it provides a common interface for networking, security, storage, etc. 
+We're going to limit the scope to Kubernetes and AWS. So why would we use Kubernetes and AWS, specifically in that combination? First of all, they are the "de facto" industry standard platforms. Kubernetes is like an operating system on steroids. As a standard, it provides a common interface for networking, security, storage, etc. 
 
-Kubernetes needs an environment to run in, and that's where we use AWS. AWS has provided the community with interfaces to their platform through an API and development SDKs. Consequently, in addition to AWS having market leader status, there are loads of useful tools to communicate with the platform. Combine the extensibility of these two tools, and you have an environment that's reliable, consistent, scalable, cost-effective, well-maintained, secure and performant, among other things.
+Kubernetes needs an environment to run in, and that's where we use AWS. AWS has provided the community with interfaces to their platform through an API and development SDKs. Consequently, in combination with AWS having market leader status, there are loads of useful tools to communicate with the platform. Combine the extensibility of these two tools, and you have an environment that's reliable, consistent, scalable, cost-effective, well-maintained, secure and performant, among other things.
 
 Now, we only need two more tools to glue Kubernetes and AWS together. The first one is Terraform, which we can use to provision the environment Kubernetes needs to run in by using AWS resources. Secondly, we use Ansible to provide configuration management for the provisioned machines so Kubernetes has all the resources it needs. 
 
-All the additional tools we need have an interface to Ansible, either through the front through Ansible Modules or through the back by tools that call Ansible for build, deploy and test steps, such as Make and Travis CI.
+All the additional tools we need have an interface to Ansible, either through the front through Ansible Modules, or through the back by tools that call Ansible for build, deploy and test steps, such as Make and Travis CI.
 
-In the next article, we'll build a deployment pipeline using Ansible. Next, we discuss continuous delivery, and we'll use our pipeline to deploy into Kubernetes. Subsequently, we discuss infrastructure as code and we'll describe our environment as code in Terraform. When we're done with that, we discuss Feedback, and we can start building on top of Kubernetes and discover topics like Ingress, logging, monitoring, application lifecycle management, networking, storage, security, among other things. Finally, we discuss Continual Learning and Experimentation, and build our own tools.
+In the next article, we'll build a deployment pipeline using Ansible. Next, we discuss continuous delivery, and we'll use our pipeline to deploy into Kubernetes. Subsequently, we discuss infrastructure as code and we'll describe our environment as code in Terraform. When we're done with that, we discuss Feedback, and we can start building on top of Kubernetes and discover topics like ingress, logging, monitoring, application lifecycle management, networking, storage, security, among other things. Finally, we discuss Continual Learning and Experimentation, and build our own tools.
 
 All the code will be open-source on Github, so you can replicate the code if you have a small organization and would like to start cost-effectively with Kubernetes and AWS. In this article series, we'll be going through the implementation step-by-step, so you'll have the understanding to build something on your own.
 
-# Continuous integration
+# Continuous integration with Ansible and co. 
 
 We start with continuous integration ("CI"). "Doing CI" can be explained as applying Agile principles to infrastructure as opposed to application code. We can also define CI by its underpinning, the Lean Manufacturing principles, as a technology value stream. 
 
