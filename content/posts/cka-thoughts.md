@@ -2,6 +2,11 @@
 title: "Thoughts On The CNCF CKA Exam After Passing With 93%"
 date: 2020-04-05T15:45:25+07:00
 draft: false
+tags: 
+  - cka
+  - kubernetes
+  - cncf
+  - cv
 ---
 Last month I passed the CNCF CKA exam. I've been postponing the exam date for the better part of the year, assuming that it would be a very difficult exam. From what I've read, it used to be a difficult exam up until they broke the exam into two parts: CKA and CKAD. This happened around two years ago. 
 

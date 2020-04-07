@@ -2,6 +2,8 @@
 title: "Ansible Common Errors"
 date: 2020-04-05T18:05:33+07:00
 draft: true
+tags:
+  - ansible
 ---
 When browsing any social media platform, I always see a ton of questions for Ansible that are related to execution. It must be very frustrating to become stuck with one of the most popular configuration management tools in the early stages. I know I was; my original task as Systems Engineer was configuration management with Ansible, and I believe I spent 3 months out of 6 trying to get Ansible to work. 
 

@@ -2,6 +2,10 @@
 title: "Yet Another Cka Study Guide"
 date: 2020-03-05T12:46:08+07:00
 draft: false
+tags:
+  - cka
+  - kubernetes
+  - cv
 ---
 As of March 2020 there are loads of resources to study for CKA (Certified Kubernetes Administrator). A lot of people have compiled their tips and tricks, created exercise repositories and applications, compiled yet more lists of additional resources, etc. 
 

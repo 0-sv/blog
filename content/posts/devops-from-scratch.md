@@ -2,6 +2,12 @@
 title: "DevOps From Scratch"
 date: 2020-04-07T12:10:20+07:00
 draft: false
+tags:
+  - devops
+  - kubernetes
+  - ansible
+  - aws
+  - terraform
 ---
 When hiring for DevOps Engineers, it's generally suggested that hiring one or more DevOps Engineers will not change the organizational blueprint. Meaning, hiring DevOps Engineers will not get all the alleged benefits described by high performing organizations like Netflix or in the DevOps Handbook.
 
