@@ -1,5 +1,5 @@
 ---
-title: "Yet Another Cka Study Guide"
+title: "Yet Another CKA Study Guide"
 date: 2020-03-05T12:46:08+07:00
 draft: false
 tags:
