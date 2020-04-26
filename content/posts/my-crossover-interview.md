@@ -15,7 +15,7 @@ It seemed like I passed all of the tests, however, after submitting my final tes
 
 ![alt let-me-in](https://i.redd.it/tbdw89vj27j31.png)
 
-My final test consistend of creating three product knowledge articles based on customer inquiries. I hope they can be treated as a good sample for anyone. Any feedback is welcome as well, as I have no experience with this sort of work, nor could I found any resources on the internet.
+My final test consisted of creating three product knowledge articles based on customer inquiries. I hope they can be treated as a good sample for anyone. Any feedback is welcome as well, as I have no experience with this sort of work, nor could I found any proper resources on the internet.
 
 # Article #1
 Issue {#h.k8yr88jtekzq .c7}
