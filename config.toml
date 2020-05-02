@@ -1,4 +1,4 @@
-baseURL = "https://www.svatwork.com"
+baseURL = "https://svatwork.com"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 title = "sv@work"
@@ -51,7 +51,7 @@ googleAnalytics = "UA-162849553-1"
   code_copy_button = true # Turn on/off the code-copy-button for code-fields
   
   # Add custom css
-  # customCSS = ["css/foo.css", "css/bar.css"]
+  customCSS = ["css/custom.css"]
 
   # Social Icons
   # Check https://github.com/Track3/hermit#social-icons for more info.
@@ -86,3 +86,8 @@ googleAnalytics = "UA-162849553-1"
     name = "About"
     url = "about/"
     weight = 20
+
+  [[menu.main]]
+    name = "Web Projects"
+    url = "web-projects/"
+    weight = 30
